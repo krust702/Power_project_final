@@ -1,0 +1,263 @@
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+        /* display: flex;
+        flex-direction: column;
+        align-items: center; */
+    }
+
+    header {
+        margin: 25px 0px 20px 180px;
+    }
+
+    .banner {
+        margin: 0px 0px 120px 150px;
+    }
+
+    main .consumer {
+        margin: 0px 20px;
+    }
+
+    .productCards {
+        margin: 20px 0px 120px 130px;
+    }
+
+    .rightCards {
+        max-width: 650px;
+    }
+
+    .rightCard {
+        max-width: 263px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    body {
+        margin: 0px 0px 0px 0px;
+    }
+
+    header {
+        margin: 25px 0px 20px 120px;
+        gap: 150px;
+    }
+
+    main .banner {
+        margin: 0px 0px 100px 120px;
+        flex-wrap: wrap;
+    }
+
+    main .consumer {
+        margin: 0px 20px;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+
+    .consumerLogo {
+        gap: 40px;
+    }
+
+    .productCards {
+        margin: 20px 0px 80px 100px;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .rightCards {
+        max-width: 650px;
+    }
+
+    .rightCard {
+        max-width: 263px;
+        min-height: 240px;
+    }
+}
+
+
+@media only screen and (min-width: 768px)and (max-width: 991px) {
+    body {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    header {
+        margin: 25px 0px 20px 80px;
+        gap: 100px;
+    }
+
+    main .banner {
+        margin: 25px 0px 20px 80px;
+        flex-wrap: wrap;
+    }
+
+    main .consumer {
+        margin: 0px 0px;
+        max-width: 100%;
+    }
+
+    .consumerLogo {
+        gap: 40px;
+    }
+
+
+    .productCards {
+        margin: 20px 0px 60px 70px;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .rightCards {
+        max-width: 650px;
+    }
+}
+
+@media only screen and (min-width: 600px)and (max-width: 767px) {
+    body {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    header {
+        margin: 25px 0px 20px 70px;
+        gap: 50px;
+    }
+
+    main .banner {
+        margin: 10px 0px 20px 70px;
+        flex-wrap: wrap;
+    }
+
+    main .consumer {
+        margin: 0px 0px;
+        max-width: 100%;
+    }
+
+    .consumerLogo {
+        gap: 40px;
+    }
+
+    .productCards {
+        margin: 20px 0px 60px 50px;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+
+    header {
+
+        margin: 15px 30px;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    main .banner {
+
+        margin: 25px 0px 20px 15px;
+        flex-wrap: wrap;
+    }
+
+    .bannerArticle {
+        justify-content: center;
+        line-height: normal;
+    }
+
+    .bannerArticle span {
+        text-align: center;
+    }
+
+    main .consumer {
+        flex: 0 1 50%;
+        margin: 30px 0px 0px 0px;
+        max-width: 100%;
+    }
+
+    .consumerLogo {
+        gap: 20px;
+    }
+
+    .productCards {
+        justify-content: center;
+    }
+
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .procdactArticle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .rightCards {
+        justify-content: center;
+    }
+
+    .feedback {
+        background-image: none;
+    }
+
+    .responsers {
+        gap: 0px;
+    }
+
+    .help {
+        margin: 20px 0px;
+    }
+
+    .helpArticle {
+        font-size: 22px;
+    }
+
+    .email {
+        min-width: none;
+        gap: 0px;
+    }
+
+    .helpTypes {
+        max-height: none;
+        justify-content: center;
+        gap: 44px 10px;
+    }
+
+    .footerArticle {
+        margin: 20px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footerTitle {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .footerLinks {
+        margin: 30px 60px;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+}

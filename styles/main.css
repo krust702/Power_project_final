@@ -1,0 +1,554 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+}
+
+.leftBanner {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.bannerArticle {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110px;
+    letter-spacing: 0.2px;
+    color: #1E1F4B;
+    max-width: 716px;
+    margin: 0px 0px 20px 0px;
+}
+
+.violetArticle {
+    position: relative;
+    max-width: 354px;
+    max-height: 109px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+    color: #706FE5;
+    border: 8px solid #706FE5;
+    padding: 5px 38px;
+}
+
+.violetLeft {
+    position: absolute;
+    background: #FFFFFF;
+    border: 8px solid #706FE5;
+    border-radius: 22px;
+    height: 12px;
+    width: 12px;
+    left: -18px;
+    top: -16px;
+}
+
+.violetBleft {
+    position: absolute;
+    background: #FFFFFF;
+    border: 8px solid #706FE5;
+    border-radius: 22px;
+    height: 12px;
+    width: 12px;
+    left: -10px;
+    bottom: -108px;
+}
+
+.violetBright {
+    position: absolute;
+    background: #FFFFFF;
+    border: 8px solid #706FE5;
+    border-radius: 22px;
+    height: 12px;
+    width: 12px;
+    right: -370px;
+    bottom: -108px;
+}
+
+.violetRight {
+    position: absolute;
+    background: #FFFFFF;
+    border: 8px solid #706FE5;
+    border-radius: 22px;
+    height: 12px;
+    width: 12px;
+    right: -370px;
+    top: -10px;
+}
+
+.bannerDiscription {
+    max-width: 555px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #2E3E5C;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding: 0px 0px 10px 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+}
+
+.contactButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 181px;
+    height: 47px;
+    background: #706FE5;
+    border-radius: 12px;
+}
+
+.contactButton:hover {
+    background: #252583;
+    transition: all 0.4s ease;
+}
+
+.contactButton a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.introductionButton {
+    display: flex;
+    align-items: center;
+    max-width: 210px;
+    gap: 13px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2E3E5C;
+}
+
+.rightBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 531px;
+    min-height: 531px;
+    background-image: url(../Img/Main/imagesPage1/Mask_group.png);
+    background-repeat: no-repeat;
+}
+
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 239px;
+    height: 131px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+}
+
+.containerEmployees {
+    margin: 13px 0px 9px 0px;
+}
+
+.containerEmployees img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #E9E8FA;
+    border-radius: 40px;
+}
+
+.containerEmployees img:hover {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #706FE5;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+
+.containerArticle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #1E1F4B;
+    margin-bottom: 7px;
+}
+
+.containerReviews {
+    position: relative;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #2E3E5C;
+    opacity: 0.8;
+}
+
+.containerReviews::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    background-image: url(../Img/Main/imagesPage1/Star1.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    left: -27px;
+}
+
+main .consumer {
+    margin: 0px 0px;
+}
+
+.consumer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px 80px 0px;
+    background: rgba(65, 64, 102, 0.02);
+}
+
+.consumerTitle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #1E1F4B;
+    margin-bottom: 47px;
+}
+
+.consumerLogo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.productCards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+
+.mainArticle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #1E1F4B;
+    margin-bottom: 14px;
+}
+
+.descriptionArticle {
+    font-size: 20px;
+    line-height: 36px;
+    color: #2E3E5C;
+    opacity: 0.8;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    margin: 40px 0px 0px 0px;
+    /* flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 550px; */
+}
+
+.leftCards {
+    display: flex;
+    flex-direction: column;
+    max-width: 596px;
+}
+
+.leftcardImg img {
+    border-radius: 30px;
+}
+
+.cardCalendar {
+    font-size: 14px;
+    line-height: 26px;
+    color: #2E3E5C;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin: 10px;
+}
+
+.leftCardname {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1E1F4B;
+    margin: 10px;
+}
+
+.rightCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 29px;
+}
+
+.rightCardimg img {
+    border-radius: 30px;
+}
+
+.rightCardname {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2E3E5C;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(65, 64, 102, 0.02);
+    background-image: url(../Img/Main/imagesPage3/dots.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left 150px top 72px;
+}
+
+.feedbackTitle {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #03014C;
+    max-width: 330px;
+    margin-top: 94px;
+}
+
+.feedbackReviews {
+    position: relative;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    color: #03014C;
+    opacity: 0.5;
+    max-width: 669px;
+    margin-top: 75px;
+}
+
+.feedbackReviews::before {
+    content: "";
+    position: absolute;
+    background-image: url(../Img/Main/imagesPage3/“.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 66px;
+    right: -70px;
+    top: -25px;
+}
+
+.feedbackReviews::after {
+    content: "";
+    position: absolute;
+    background-image: url(../Img/Main/imagesPage3/“.png);
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 66px;
+    left: -75px;
+    top: -25px;
+    opacity: none;
+}
+
+.feedbackResponse {
+    margin: 60px;
+    gap: 20px;
+}
+
+.responsers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 18px;
+}
+
+.responsers img {
+    padding: 1px;
+    border: 5px solid #706FE510;
+    border-radius: 48px;
+}
+
+.responsers img:hover {
+    padding: 1px;
+    border: 5px solid #706FE5;
+    border-radius: 48px;
+    transition: all 0.3s ease;
+}
+
+.responserName {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #1E1F4B;
+}
+
+.responserStatus {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #2E3E5C;
+    opacity: 0.8;
+}
+
+.help {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 140px;
+    flex-wrap: wrap;
+}
+
+.helpMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.helpArticle {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0.2px;
+    text-transform: capitalize;
+    color: #1E1F4B;
+    margin-bottom: 10px;
+}
+
+.helpText {
+    font-size: 20px;
+    line-height: 36px;
+    color: #1B1D21;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    max-width: 457px;
+    margin-bottom: 50px;
+}
+
+#email {
+    width: 199px;
+    height: 24px;
+    background-color: #706FE510;
+    border: none;
+}
+
+.email {
+    max-width: 491px;
+    max-height: 92px;
+    min-width: 490px;
+    min-height: 91px;
+    border-radius: 20px;
+    background: #706FE510;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 40px;
+}
+
+.emailContainer::before {
+    content: "";
+    background-image: url(../Img/Main/imagesPage3/email.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 10px;
+}
+
+.subscribeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 47px;
+    background: #706FE5;
+    box-shadow: 0px 6px 20px rgba(112, 111, 229, 0.5);
+    border-radius: 12px;
+}
+
+.subscribeButton a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.subscribeButton:hover {
+    background: #252583;
+    transition: all 0.4s ease;
+}
+
+.helpTypes {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    max-height: 400px;
+    flex-wrap: wrap;
+    gap: 94px 30px;
+}
+
+.containerHelp {
+    display: flex;
+    flex-direction: column;
+    max-height: 220px;
+    max-width: 262px;
+
+}
+
+.typeImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #706FE515;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.typeName {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1E1F4B;
+    margin-bottom: 10px;
+}
+
+.typeDescription {
+    font-size: 16px;
+    line-height: 28px;
+    color: #2E3E5C;
+    opacity: 0.8;
+}
